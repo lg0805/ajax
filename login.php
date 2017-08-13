@@ -9,7 +9,7 @@
 </head>
 <body>
 	<h1>Login</h1>
-	<p id="results">abc </p>
+	<p id="results"></p>
 
 	<form action="login_ajax.php" method="post" id="login">
 		<p id="emailP">
