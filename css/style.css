@@ -1,0 +1,51 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+h1{
+	line-height: 64px;
+	height: 64px;
+}
+
+label{
+	display: inline-block;
+	width:160px;
+	text-align: right;
+	height: 26px;
+	line-height: 26px;
+}
+
+form{
+	width: 600px;
+	margin-top:24px;
+	border:1px solid #eee;
+	padding: 36px 0;
+}
+
+input{
+	padding-left:10px;
+	height: 22px;
+	border:1px solid #ccc;
+}
+
+span{
+	font-size: 13px;
+}
+
+
+.error, .errorMessage{
+	color: #f00;
+	display: inline-block;
+}
+
+#submit{
+	margin: 12px 0 18px 168px;
+	width: 100px;
+	height: 32px;
+	text-align: center;
+	border-radius: 6px;
+	background-color:rgb(52,83,145);
+	color: #fff;
+	cursor: pointer;
+}
